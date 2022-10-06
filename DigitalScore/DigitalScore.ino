@@ -57,12 +57,10 @@ void setup()
 {
 
   Serial.begin(9600);
-
   pinMode( Up_buttonPin , INPUT_PULLUP);
-
   pinMode( Down_buttonPin , INPUT_PULLUP);
-
   pinMode( Reset_buttonPin , INPUT_PULLUP);
+  pinMode( Zero_buttonPin, INPUT_PULLUP);
   
   lcd.init();
   lcd.setRGB(colorR, colorG, colorB);
