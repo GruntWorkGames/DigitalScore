@@ -210,7 +210,7 @@ void checkReset()
       delay(50);
   }
 
-  reset_buttonState = reset_lastButtonState;
+  reset_lastButtonState = reset_buttonState;
 }
 
 void checkZero() 
@@ -226,7 +226,7 @@ void checkZero()
       delay(50);
   }
 
-  zero_buttonState = zero_lastButtonState;
+  zero_lastButtonState = zero_buttonState;
 }
 
 
